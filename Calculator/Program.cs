@@ -40,7 +40,7 @@ namespace Calculator
             Console.WriteLine("Vysledek suctu float je {0:0.00}", res);  //formatovanie vystupu na dve miesta
 
 
-            string naformatovanyString = String.Format("Vysledek suctu {0}", res);
+            string naformatovanyString = String.Format("Vysledek suctu {0} \a", res); // \a je beep
             //novy csahrp postup na formatovani stringu
             string novyCSharFormat = $"Vysledek suctu {res} a dalsi vysledek je {podiel}"; /// skratene formatovanie
 
@@ -48,6 +48,8 @@ namespace Calculator
             //sekvencia lomitok v ceste sa da pisat takto:
             string cestaKSouboru = "C:\\temp\\log.txt";
             string cestaKSouboru1 = @"C:\temp\log.txt";
+
+            Console.WriteLine("\"Dobry den\""); //a takto sa daju uvodzovky /"
 
 
 

@@ -20,6 +20,5 @@ namespace Calculator
 
         public abstract T Divide(T a, T b);
 
-
     }
 }
