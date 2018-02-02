@@ -37,9 +37,17 @@ namespace Calculator
             //            float res = floatCalculator.Add(14.5565f, 12.5f); na dalsom ide to a z line
 
             float res = floatCalculator.Add(a, 12.5f);
-            Console.WriteLine("Vysledek suctu float je {0}", res);
+            Console.WriteLine("Vysledek suctu float je {0:0.00}", res);  //formatovanie vystupu na dve miesta
 
 
+            string naformatovanyString = String.Format("Vysledek suctu {0}", res);
+            //novy csahrp postup na formatovani stringu
+            string novyCSharFormat = $"Vysledek suctu {res} a dalsi vysledek je {podiel}"; /// skratene formatovanie
+
+
+            //sekvencia lomitok v ceste sa da pisat takto:
+            string cestaKSouboru = "C:\\temp\\log.txt";
+            string cestaKSouboru1 = @"C:\temp\log.txt";
 
 
 
