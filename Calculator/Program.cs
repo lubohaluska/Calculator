@@ -37,7 +37,7 @@ namespace Calculator
             //            float res = floatCalculator.Add(14.5565f, 12.5f); na dalsom ide to a z line
 
             float res = floatCalculator.Add(a, 12.5f);
-            Console.WriteLine("Vysledek float je {0}", res);
+            Console.WriteLine("Vysledek suctu float je {0}", res);
 
 
 
